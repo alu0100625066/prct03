@@ -7,4 +7,32 @@
 
 	El intérprete interactivo te muestra primero el contenido del fichero y posteriormente lo ejecuta, con el intérprete de ruby, lo ejecutas directamente.
 
+26. ¿Cuál es el resultado de cada una de las siguientes operaciones?
 
+	[1] pry(main)> puts x
+	10
+	=> nil
+	[2] pry(main)> def hello
+	[2] pry(main)* puts "Hello world"
+	[2] pry(main)* end
+	=> :hello
+	[3] pry(main)> hello
+	Hello world
+	=> nil
+	[4] pry(main)> byebye
+	Bye bye world
+	=> nil
+	[5] pry(main)> x = "changed"
+	=> "changed"
+	[6] pry(main)> exit
+	program resumes here. Value of x is: changed
+
+
+27. ¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo"con el intérprete interactivo y con pry? Escriba la respuesta en fichero creado en el ejercicio 9.
+	Como contesté antes, el intérprete interactivo te muestra primero el contenido del fichero y posteriormente lo ejecuta, en este caso, con pry se ejecuta directamente.
+
+
+
+
+
+	
